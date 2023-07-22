@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar starts here */
+
+.nav {
+    height: 75px;
+    background-color: rgb(20, 20, 110);
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1.5px solid white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    font-size: 30px;
+    margin-right: 5px;
+    color: white;
+}
+
+.nav p{
+    margin-right:200px;
+    margin-left: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav mark{
+    background-color: rgb(255, 196, 0);
+    color:rgb(20, 20, 110); 
+}
+
+.nav a{
+    text-decoration: none;
+    color: antiquewhite;
+    margin-right: 25px;
+    font-weight: bold;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav a:hover{
+    color:yellow;
+    border-bottom: 1.5px solid yellow;
+}
+/* navbar ends here  */
+
+
+/* hero-section starts here  */
+.hero{
+    background-image: url("pic.jpg");
+    background-size: cover;
+    height: 620px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+#p1{
+    padding-top: 120px;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+h1{
+    font-size: 110px;
+    color:white;
+}
+/* hero-section ends here  */
+
+
+/* description-section starts here   */
+.desc{
+    background-color:antiquewhite;
+    height: 800px;
+    color: black;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.desc div{
+    width: 95%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.desc div p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 450;
+}
+
+.desc div p:hover{
+    background-color: rgb(240, 197, 116);
+}
+
+.desc div h3{
+    font-family:cursive;
+    color: rgb(20, 20, 110);
+    display: inline;
+}
+
+.desc div h3:hover{
+    border-bottom: 1.5px solid rgb(20, 20, 110);
+}
+/* description-section ends here   */
+
+
+/* footer starts here  */
+.footer {
+    background-color: rgb(20, 20, 110);
+    height: 180px;
+    color: antiquewhite;
+    border-top: 1.9px solid white;
+    border-bottom: 10px solid white;
+    position: relative;
+}
+
+.footer div{
+    display: inline-block;
+    font-size: 27px;
+    position: absolute;
+    top: 50px;
+}
+
+#div1{
+    left: 90px;
+}
+
+#div2{
+    left: 450px;
+}
+
+#div3{
+    left: 850px;
+}
+
+#icon1{
+    margin-bottom: 12px;
+}
+
+.icon{
+    font-size: 50px;
+    color: antiquewhite;
+}
+
+.icon:hover{
+    color: yellow;
+}
+/* footer ends here  */
