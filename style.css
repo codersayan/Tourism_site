@@ -72,10 +72,12 @@ h1{
     font-size: 110px;
     color:white;
 }
+
 /* hero-section ends here  */
 
 
 /* description-section starts here   */
+
 .desc{
     background-color:antiquewhite;
     height: 800px;
@@ -382,3 +384,53 @@ body {
     color: yellow;
 }
 /* footer ends here  */
+
+/* --------- Heritage.html --------- */
+
+.hero #p3 {
+    font-size: 80px;
+    color:white;
+}
+
+ul {
+    list-style: none;
+    padding-top: 70px;
+}
+
+.outer ul li {
+    display: inline;
+    float: left;
+}
+
+.hero .outer a {
+    text-decoration: none;
+}
+
+.hero .outer h3 {
+    color: blanchedalmond;
+}
+
+.hero .inner {
+    display: inline;
+    float: left;
+    margin: 40px;
+    height: 150px;
+    width: 250px;
+    border-radius: 10%;
+    transition-duration: 1s;
+}
+
+.hero .inner:hover {
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+    float: left;
+}
+
+.hero .outer h3:hover {
+    font-size: 30px;
+    text-decoration: underline;
+    transition-duration: 1s;
+}
+
+/* --------- Heritage.html --------- */
