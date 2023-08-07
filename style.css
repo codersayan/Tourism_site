@@ -344,6 +344,9 @@ body {
 
 /* footer starts here  */
 .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     background-color: rgb(20, 20, 110);
     height: 180px;
     color: antiquewhite;
@@ -355,34 +358,21 @@ body {
 .footer div{
     display: inline-block;
     font-size: 27px;
-    position: absolute;
-    top: 50px;
+    text-align: center;
 }
 
-#div1{
-    left: 90px;
-}
-
-#div2{
-    left: 450px;
-}
-
-#div3{
-    left: 850px;
-}
-
-#icon1{
-    margin-bottom: 12px;
+.divin {
+    padding-top: 60px;
 }
 
 .icon{
-    font-size: 50px;
+    font-size: 40px;
     color: antiquewhite;
 }
 
 .icon:hover{
     color: yellow;
-}
+} 
 /* footer ends here  */
 
 /* --------- Heritage.html --------- */
