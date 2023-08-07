@@ -382,6 +382,11 @@ body {
     color:white;
 }
 
+.outer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 ul {
     list-style: none;
     padding-top: 70px;
@@ -401,9 +406,8 @@ ul {
 }
 
 .hero .inner {
-    display: inline;
-    float: left;
-    margin: 40px;
+    display: inline-block;
+    margin: 40px 40px 20px 40px;
     height: 150px;
     width: 250px;
     border-radius: 10%;
