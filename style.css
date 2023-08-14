@@ -429,3 +429,100 @@ ul {
 }
 
 /* --------- Heritage.html --------- */
+
+/* --------- Hotel Booking Page --------- */
+
+.formOuter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    scale: 90vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(pic.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.formOuter .form {
+    display: inline-block;
+    background-color: white;
+    width: 320px;
+    height: 550px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin: 120px 0 35px 0;
+    color: black;
+    text-align: left;
+    overflow: auto;
+}
+
+.formOuter .form input , textarea , select {
+    width: 100%;
+    height: 20%;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px 0 10px;
+    background-color: #ccc;
+    border: 0px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#btn {
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+}
+
+#btn:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+
+.form h2, h4 {
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+#male , #female {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+#male1 , #female1 {
+    background-color: aquamarine;
+}
+
+label:hover {
+    background-color: aquamarine;
+}
+
+#male1:hover {
+    background-color: bisque;
+}
+
+#female1:hover {
+    background-color: bisque;
+}
+
+.formOuter .form h2 {
+    background-color: bisque;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.formOuter .form h2:hover {
+    background-color: aquamarine;
+}
+
+/* --------- Hotel Booking Page --------- */
