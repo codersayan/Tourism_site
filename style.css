@@ -473,6 +473,7 @@ ul {
     background-color: green;
     color: white;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #btn:hover {
@@ -523,6 +524,53 @@ label:hover {
 
 .formOuter .form h2:hover {
     background-color: aquamarine;
+}
+
+#pay {
+    margin-right: 150px;
+    margin-bottom: 10px;
+}
+
+#upi , #netbanking , #card , #mini {
+    width: 20px;
+    margin-bottom: 20px;
+}
+
+#upilabel {
+    background-color: aquamarine;
+    margin-right: 230px;
+}
+
+#netbankinglabel {
+    margin-right: 150px;
+    background-color: aquamarine;
+}
+
+#cardlabel {
+    margin-right: 100px;
+    background-color: aquamarine;
+}
+
+#minilabel {
+    margin-right: 100px;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}
+
+#upilabel:hover {
+    background-color: bisque;
+}
+
+#netbankinglabel:hover {
+    background-color: bisque;
+}
+
+#cardlabel:hover {
+    background-color: bisque;
+}
+
+#minilabel:hover {
+    background-color: bisque;
 }
 
 /* --------- Hotel Booking Page --------- */

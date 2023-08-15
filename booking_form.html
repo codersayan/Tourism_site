@@ -67,12 +67,22 @@
                 <input type="datetime-local" id="departure_date" name="departure_date" required>
 
                 <label for="members">Number of Members:</label>
-                <input type="number" id="members" name="members" required>
+                <input type="number" id="members" name="members" placeholder="Number of members..." required>
+
+                <label for="payment" id="pay">Payment Methods :</label>
+                <input type="radio" id="upi" name="payment" required>
+                <label for="upi" id="upilabel">UPI</label>
+                <input type="radio" id="netbanking" name="payment" required>
+                <label for="netbanking" id="netbankinglabel">NET_BANKING</label>
+                <input type="radio" id="card" name="payment" required>
+                <label for="card" id="cardlabel">DEBIT/CREDIT CARD</label>
+                <input type="radio" id="mini" name="payment" required>
+                <label for="mini" id="minilabel">MINIMUM FEES</label>
 
                 <label for="special_request">Do you have any special request?</label>
-                <textarea id="special_request" name="special_request" rows="4"></textarea>
+                <textarea id="special_request" name="special_request" rows="4" placeholder="Enter your queries..."></textarea>
 
-                <input type="submit" value="NEXT" id="btn">
+                <input type="submit" value="BOOK NOW" id="btn">
             </form>
         </div>
     </div>
